@@ -52,6 +52,7 @@ params:
   socialIcons:
     - name: linkedin
       url: "https://www.linkedin.com/in/outdam/"
+  hideFooter: true
 taxonomies:
   category: categories
   tag: tags
