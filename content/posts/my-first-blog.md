@@ -11,6 +11,6 @@ categories: ["how-to"]
 
 ## Domain
 
-## Hosting Server
+## Hosting
 
 ## Deployment Pipeline
