@@ -1,4 +1,4 @@
-baseURL: "https://oudam.es/"
+baseURL: "https://oudam.es"
 title: "Home"
 paginate: 7
 theme: "PaperMod"
@@ -61,3 +61,8 @@ taxonomies:
 services:
   twitter:
     disableInlineCSS: true
+
+deployment:
+  targets:
+    - name: s3
+      URL: "s3://oudam.es?region=us-east-1"
