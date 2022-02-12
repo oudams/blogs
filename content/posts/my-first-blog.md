@@ -3,8 +3,7 @@ draft: false
 title: "My First Blog(Test)"
 date: 2022-02-08T23:17:36+08:00
 description: "Journey to setting up self-host personal blog!"
-tags: ["how-do-i", "journey","hugo", "aws"]
-categories: ["how-to"]
+tags: ["hugo", "aws", "tech", "terraform", "github-actions"]
 ---
 
 ## Choosing Hugo
