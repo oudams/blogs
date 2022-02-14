@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "My First Blog with Hugo hosting in Cloudfront+S3"
+title: "[Test Publish] My First Blog with Hugo hosting in Cloudfront+S3"
 date: 2022-02-08T23:17:36+08:00
 description: "Hosting Hugo site with S3 and Cloudfront distribution. Using Terraform to manage infrastructure, and Github Actions for CI/CD pipeline."
 tags: ["hugo", "aws", "tech", "terraform", "github-actions"]
