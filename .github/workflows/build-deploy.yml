@@ -30,4 +30,4 @@ jobs:
       - name: Build
         run: hugo --minify
       - name: Deploy
-        run: hugo deploy
+        run: hugo deploy --maxDeletes -1 --invalidateCDN
