@@ -60,3 +60,12 @@ There are independent open source tools we can use to integrate with terraform d
          - **Compatibility: are we ready to use these as we need a baseline configs that works for our cases?**
          - Compatibility: smart enough to interpret tfvars or can work with `terraform plan` file?
          - Functionality: is it just a duplication of `checkov`?
+
+# How
+## Formatting
+
+https://www.jetbrains.com/help/idea/using-file-watchers.html
+
+## Terrform pre-commit
+
+https://github.com/antonbabenko/pre-commit-terraform
