@@ -42,6 +42,8 @@ There are independent open source tools we can use to integrate with terraform d
 
 2. Static Analysis:
    1. Validation
+      - Why
+        - Usually some error is caught during `terraform plan`, but we don't enforce team to run `terraform plan` every time they `git commit/push`, meaning we have to wait till our code delivered to the specific pipeline then get informed about the error. So the balance is to enforce a short and sweet `terraform validate` execution in pre-commit hook, we can catch those error that `plan` would catch. Now we shorten the feedback leap time, and the respond is pretty fast.
       - Tools:
         - `terraform validate`
       - When:
