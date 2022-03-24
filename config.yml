@@ -21,8 +21,8 @@ menu:
     - name: Tags
       url: tags/
       weight: 2
-    - name: Categories
-      url: categories/
+    - name: Tips
+      url: tips/
       weight: 3
 
 outputs:
@@ -55,6 +55,7 @@ params:
   hideFooter: true
 taxonomies:
   category: categories
+  tip: tips
   tag: tags
   series: series
 
