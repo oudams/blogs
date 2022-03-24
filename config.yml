@@ -54,7 +54,6 @@ params:
       url: "https://www.linkedin.com/in/outdam/"
   hideFooter: true
 taxonomies:
-  category: categories
   tip: tips
   tag: tags
   series: series
